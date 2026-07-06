@@ -1,0 +1,841 @@
+2026-07-02 14:21:21,073 - __main__ - INFO - Iniciando carregamento de configurações...
+2026-07-02 14:21:21,079 - __main__ - INFO - Arquivo .env carregado com sucesso
+2026-07-02 14:21:21,092 - __main__ - INFO - ======================================================================
+2026-07-02 14:21:21,096 - __main__ - INFO - BOT DE SINAIS LUXURY - INICIANDO
+2026-07-02 14:21:21,100 - __main__ - INFO - ======================================================================
+2026-07-02 14:21:21,106 - __main__ - INFO - Carregando configurações...
+2026-07-02 14:21:21,110 - __main__ - INFO - Iniciando validação de configurações...
+2026-07-02 14:21:21,114 - __main__ - INFO - Token validado com sucesso
+2026-07-02 14:21:21,123 - __main__ - INFO - Chat ID validado: -1004368741807
+2026-07-02 14:21:21,124 - __main__ - INFO - Configuração CAMINHO_IMAGEM carregada: img.png
+2026-07-02 14:21:21,124 - __main__ - INFO - Configuração PLATAFORMA_1_URL carregada: https://bingo.bet.br/
+2026-07-02 14:21:21,127 - __main__ - INFO - Configuração PLATAFORMA_2_URL carregada: https://bingo.bet.br/
+2026-07-02 14:21:21,128 - __main__ - INFO - Configuração DELAY_SINAL_EM_BREVE carregada: 1
+2026-07-02 14:21:21,131 - __main__ - INFO - Configuração DELAY_SINAL_CAPTURADO carregada: 10
+2026-07-02 14:21:21,131 - __main__ - INFO - Configuração DELAY_ENVIO_TABULEIRO carregada: 120
+2026-07-02 14:21:21,133 - __main__ - INFO - Configuração DELAY_ENVIO_GREEN carregada: 10
+2026-07-02 14:21:21,139 - __main__ - INFO - Configuração DELAY_ENVIO_RANKING carregada: 10
+2026-07-02 14:21:21,139 - __main__ - INFO - Configuração MIN_BOMBAS carregada: 1
+2026-07-02 14:21:21,139 - __main__ - INFO - Configuração MAX_BOMBAS carregada: 5
+2026-07-02 14:21:21,140 - __main__ - INFO - Configuração MIN_ESTRELAS carregada: 1
+2026-07-02 14:21:21,141 - __main__ - INFO - Configuração MAX_ESTRELAS carregada: 5
+2026-07-02 14:21:21,141 - __main__ - INFO - Configuração MIN_VALOR carregada: 3
+2026-07-02 14:21:21,142 - __main__ - INFO - Configuração MAX_VALOR carregada: 100
+2026-07-02 14:21:21,142 - __main__ - INFO - Configuração MIN_PORCENTAGEM carregada: 65
+2026-07-02 14:21:21,143 - __main__ - INFO - Configuração MAX_PORCENTAGEM carregada: 90
+2026-07-02 14:21:21,146 - __main__ - INFO - Imagem validada com sucesso: img.png
+2026-07-02 14:21:21,147 - __main__ - INFO - ✅ Todas as configurações validadas com sucesso
+2026-07-02 14:21:21,147 - __main__ - INFO - Inicializando bot...
+2026-07-02 14:21:21,158 - __main__ - INFO - Inicializando bot do Telegram...
+2026-07-02 14:21:22,174 - __main__ - INFO - Bot conectado com sucesso: @Luxuryone_bot
+2026-07-02 14:21:22,178 - __main__ - INFO - ✅ Bot iniciado com sucesso
+2026-07-02 14:21:22,178 - __main__ - INFO - ✅ Chat ID configurado: -1004368741807
+2026-07-02 14:21:22,181 - __main__ - INFO - ✅ Delay entre sinais: 120s
+2026-07-02 14:21:22,182 - __main__ - INFO - Iniciando thread de ciclo de sinais...
+2026-07-02 14:21:22,188 - __main__ - INFO - Iniciando ciclo automático de sinais...
+2026-07-02 14:21:22,188 - __main__ - INFO - Thread de sinais iniciada
+2026-07-02 14:21:22,191 - __main__ - INFO - Iniciando novo ciclo de sinal
+2026-07-02 14:21:22,194 - __main__ - INFO - ✅ Bot aguardando mensagens... (Ctrl+C para parar)
+2026-07-02 14:21:22,196 - __main__ - INFO - Etapa 1: Enviando aviso de preparação
+2026-07-02 14:21:22,196 - __main__ - INFO - ======================================================================
+2026-07-02 14:21:23,726 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 14:21:24,729 - __main__ - INFO - Etapa 2: Gerando tabuleiro e parâmetros
+2026-07-02 14:21:24,731 - __main__ - INFO - Etapa 3: Enviando aviso de sinal capturado
+2026-07-02 14:21:25,453 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 14:21:35,454 - __main__ - INFO - Etapa 4: Enviando tabuleiro com foto
+2026-07-02 14:21:35,456 - __main__ - INFO - Imagem validada com sucesso: img.png
+2026-07-02 14:21:36,995 - __main__ - INFO - Foto enviada para -1004368741807 (mensagem ID: 60)
+2026-07-02 14:21:36,996 - __main__ - INFO - Etapa 5: Iniciando cronômetro
+2026-07-02 14:21:37,007 - __main__ - INFO - Iniciando cronômetro: 120s para mensagem 60
+2026-07-02 14:23:37,009 - __main__ - INFO - Etapa 6: Enviando mensagem de sucesso
+2026-07-02 14:23:37,748 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 14:23:40,835 - __main__ - INFO - Cronômetro finalizado - tempo esgotado
+2026-07-02 14:23:47,754 - __main__ - INFO - Etapa 7: Enviando ranking
+2026-07-02 14:23:48,481 - __main__ - INFO - Mensagem com markup enviada para -1004368741807
+2026-07-02 14:23:58,485 - __main__ - INFO - Ciclo de sinal concluído com sucesso
+2026-07-02 14:23:58,493 - __main__ - INFO - Iniciando novo ciclo de sinal
+2026-07-02 14:23:58,494 - __main__ - INFO - Etapa 1: Enviando aviso de preparação
+2026-07-02 14:23:59,220 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 14:24:00,227 - __main__ - INFO - Etapa 2: Gerando tabuleiro e parâmetros
+2026-07-02 14:24:00,228 - __main__ - INFO - Etapa 3: Enviando aviso de sinal capturado
+2026-07-02 14:24:00,941 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 14:24:10,943 - __main__ - INFO - Etapa 4: Enviando tabuleiro com foto
+2026-07-02 14:24:10,943 - __main__ - INFO - Imagem validada com sucesso: img.png
+2026-07-02 14:24:11,996 - __main__ - INFO - Foto enviada para -1004368741807 (mensagem ID: 65)
+2026-07-02 14:24:12,006 - __main__ - INFO - Etapa 5: Iniciando cronômetro
+2026-07-02 14:24:12,026 - __main__ - INFO - Iniciando cronômetro: 120s para mensagem 65
+2026-07-02 14:26:12,026 - __main__ - INFO - Etapa 6: Enviando mensagem de sucesso
+2026-07-02 14:26:12,775 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 14:26:16,214 - __main__ - INFO - Cronômetro finalizado - tempo esgotado
+2026-07-02 14:26:22,776 - __main__ - INFO - Etapa 7: Enviando ranking
+2026-07-02 14:26:23,494 - __main__ - INFO - Mensagem com markup enviada para -1004368741807
+2026-07-02 14:26:33,497 - __main__ - INFO - Ciclo de sinal concluído com sucesso
+2026-07-02 14:26:33,498 - __main__ - INFO - Iniciando novo ciclo de sinal
+2026-07-02 14:26:33,498 - __main__ - INFO - Etapa 1: Enviando aviso de preparação
+2026-07-02 14:26:34,214 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 14:26:35,216 - __main__ - INFO - Etapa 2: Gerando tabuleiro e parâmetros
+2026-07-02 14:26:35,216 - __main__ - INFO - Etapa 3: Enviando aviso de sinal capturado
+2026-07-02 14:26:36,055 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 14:26:46,061 - __main__ - INFO - Etapa 4: Enviando tabuleiro com foto
+2026-07-02 14:26:46,061 - __main__ - INFO - Imagem validada com sucesso: img.png
+2026-07-02 14:26:48,136 - __main__ - INFO - Foto enviada para -1004368741807 (mensagem ID: 70)
+2026-07-02 14:26:48,139 - __main__ - INFO - Etapa 5: Iniciando cronômetro
+2026-07-02 14:26:48,159 - __main__ - INFO - Iniciando cronômetro: 120s para mensagem 70
+2026-07-02 14:28:48,160 - __main__ - INFO - Etapa 6: Enviando mensagem de sucesso
+2026-07-02 14:28:48,880 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 14:28:52,044 - __main__ - INFO - Cronômetro finalizado - tempo esgotado
+2026-07-02 14:28:58,884 - __main__ - INFO - Etapa 7: Enviando ranking
+2026-07-02 14:28:59,624 - __main__ - INFO - Mensagem com markup enviada para -1004368741807
+2026-07-02 14:29:09,632 - __main__ - INFO - Ciclo de sinal concluído com sucesso
+2026-07-02 14:29:09,637 - __main__ - INFO - Iniciando novo ciclo de sinal
+2026-07-02 14:29:09,649 - __main__ - INFO - Etapa 1: Enviando aviso de preparação
+2026-07-02 14:29:10,397 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 14:29:11,398 - __main__ - INFO - Etapa 2: Gerando tabuleiro e parâmetros
+2026-07-02 14:29:11,400 - __main__ - INFO - Etapa 3: Enviando aviso de sinal capturado
+2026-07-02 14:29:12,111 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 14:29:22,116 - __main__ - INFO - Etapa 4: Enviando tabuleiro com foto
+2026-07-02 14:29:22,116 - __main__ - INFO - Imagem validada com sucesso: img.png
+2026-07-02 14:29:24,953 - __main__ - INFO - Foto enviada para -1004368741807 (mensagem ID: 75)
+2026-07-02 14:29:24,956 - __main__ - INFO - Etapa 5: Iniciando cronômetro
+2026-07-02 14:29:24,960 - __main__ - INFO - Iniciando cronômetro: 120s para mensagem 75
+2026-07-02 14:31:24,960 - __main__ - INFO - Etapa 6: Enviando mensagem de sucesso
+2026-07-02 14:31:26,626 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 14:31:28,873 - __main__ - INFO - Cronômetro finalizado - tempo esgotado
+2026-07-02 14:31:36,634 - __main__ - INFO - Etapa 7: Enviando ranking
+2026-07-02 14:31:37,354 - __main__ - INFO - Mensagem com markup enviada para -1004368741807
+2026-07-02 14:31:47,356 - __main__ - INFO - Ciclo de sinal concluído com sucesso
+2026-07-02 14:31:47,362 - __main__ - INFO - Iniciando novo ciclo de sinal
+2026-07-02 14:31:47,362 - __main__ - INFO - Etapa 1: Enviando aviso de preparação
+2026-07-02 14:31:48,078 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 14:31:49,081 - __main__ - INFO - Etapa 2: Gerando tabuleiro e parâmetros
+2026-07-02 14:31:49,083 - __main__ - INFO - Etapa 3: Enviando aviso de sinal capturado
+2026-07-02 14:31:49,819 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 14:31:59,821 - __main__ - INFO - Etapa 4: Enviando tabuleiro com foto
+2026-07-02 14:31:59,828 - __main__ - INFO - Imagem validada com sucesso: img.png
+2026-07-02 14:32:02,649 - __main__ - INFO - Foto enviada para -1004368741807 (mensagem ID: 80)
+2026-07-02 14:32:02,650 - __main__ - INFO - Etapa 5: Iniciando cronômetro
+2026-07-02 14:32:02,691 - __main__ - INFO - Iniciando cronômetro: 120s para mensagem 80
+2026-07-02 14:34:02,691 - __main__ - INFO - Etapa 6: Enviando mensagem de sucesso
+2026-07-02 14:34:03,416 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 14:34:06,687 - __main__ - INFO - Cronômetro finalizado - tempo esgotado
+2026-07-02 14:34:13,420 - __main__ - INFO - Etapa 7: Enviando ranking
+2026-07-02 14:34:14,206 - __main__ - INFO - Mensagem com markup enviada para -1004368741807
+2026-07-02 14:34:24,209 - __main__ - INFO - Ciclo de sinal concluído com sucesso
+2026-07-02 14:34:24,213 - __main__ - INFO - Iniciando novo ciclo de sinal
+2026-07-02 14:34:24,214 - __main__ - INFO - Etapa 1: Enviando aviso de preparação
+2026-07-02 14:34:24,966 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 14:34:25,968 - __main__ - INFO - Etapa 2: Gerando tabuleiro e parâmetros
+2026-07-02 14:34:25,968 - __main__ - INFO - Etapa 3: Enviando aviso de sinal capturado
+2026-07-02 14:34:26,709 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 14:34:36,716 - __main__ - INFO - Etapa 4: Enviando tabuleiro com foto
+2026-07-02 14:34:36,717 - __main__ - INFO - Imagem validada com sucesso: img.png
+2026-07-02 14:34:39,310 - __main__ - INFO - Foto enviada para -1004368741807 (mensagem ID: 85)
+2026-07-02 14:34:39,311 - __main__ - INFO - Etapa 5: Iniciando cronômetro
+2026-07-02 14:34:39,312 - __main__ - INFO - Iniciando cronômetro: 120s para mensagem 85
+2026-07-02 14:36:39,313 - __main__ - INFO - Etapa 6: Enviando mensagem de sucesso
+2026-07-02 14:36:40,036 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 14:36:43,422 - __main__ - INFO - Cronômetro finalizado - tempo esgotado
+2026-07-02 14:36:50,038 - __main__ - INFO - Etapa 7: Enviando ranking
+2026-07-02 14:36:50,783 - __main__ - INFO - Mensagem com markup enviada para -1004368741807
+2026-07-02 14:37:00,784 - __main__ - INFO - Ciclo de sinal concluído com sucesso
+2026-07-02 14:37:00,788 - __main__ - INFO - Iniciando novo ciclo de sinal
+2026-07-02 14:37:00,789 - __main__ - INFO - Etapa 1: Enviando aviso de preparação
+2026-07-02 14:37:01,527 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 14:37:02,531 - __main__ - INFO - Etapa 2: Gerando tabuleiro e parâmetros
+2026-07-02 14:37:02,531 - __main__ - INFO - Etapa 3: Enviando aviso de sinal capturado
+2026-07-02 14:37:03,260 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 14:37:13,264 - __main__ - INFO - Etapa 4: Enviando tabuleiro com foto
+2026-07-02 14:37:13,265 - __main__ - INFO - Imagem validada com sucesso: img.png
+2026-07-02 14:37:15,842 - __main__ - INFO - Foto enviada para -1004368741807 (mensagem ID: 90)
+2026-07-02 14:37:15,843 - __main__ - INFO - Etapa 5: Iniciando cronômetro
+2026-07-02 14:37:15,843 - __main__ - INFO - Iniciando cronômetro: 120s para mensagem 90
+2026-07-02 14:39:15,844 - __main__ - INFO - Etapa 6: Enviando mensagem de sucesso
+2026-07-02 14:39:16,577 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 14:39:19,867 - __main__ - INFO - Cronômetro finalizado - tempo esgotado
+2026-07-02 14:39:26,578 - __main__ - INFO - Etapa 7: Enviando ranking
+2026-07-02 14:39:27,304 - __main__ - INFO - Mensagem com markup enviada para -1004368741807
+2026-07-02 14:39:37,308 - __main__ - INFO - Ciclo de sinal concluído com sucesso
+2026-07-02 14:39:37,316 - __main__ - INFO - Iniciando novo ciclo de sinal
+2026-07-02 14:39:37,317 - __main__ - INFO - Etapa 1: Enviando aviso de preparação
+2026-07-02 14:39:38,153 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 14:39:39,156 - __main__ - INFO - Etapa 2: Gerando tabuleiro e parâmetros
+2026-07-02 14:39:39,156 - __main__ - INFO - Etapa 3: Enviando aviso de sinal capturado
+2026-07-02 14:39:39,880 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 14:39:49,883 - __main__ - INFO - Etapa 4: Enviando tabuleiro com foto
+2026-07-02 14:39:49,887 - __main__ - INFO - Imagem validada com sucesso: img.png
+2026-07-02 14:39:52,486 - __main__ - INFO - Foto enviada para -1004368741807 (mensagem ID: 97)
+2026-07-02 14:39:52,494 - __main__ - INFO - Etapa 5: Iniciando cronômetro
+2026-07-02 14:39:52,519 - __main__ - INFO - Iniciando cronômetro: 120s para mensagem 97
+2026-07-02 14:41:52,525 - __main__ - INFO - Etapa 6: Enviando mensagem de sucesso
+2026-07-02 14:41:54,193 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 14:41:56,805 - __main__ - INFO - Cronômetro finalizado - tempo esgotado
+2026-07-02 14:42:04,196 - __main__ - INFO - Etapa 7: Enviando ranking
+2026-07-02 14:42:04,914 - __main__ - INFO - Mensagem com markup enviada para -1004368741807
+2026-07-02 14:42:14,921 - __main__ - INFO - Ciclo de sinal concluído com sucesso
+2026-07-02 14:42:14,929 - __main__ - INFO - Iniciando novo ciclo de sinal
+2026-07-02 14:42:14,930 - __main__ - INFO - Etapa 1: Enviando aviso de preparação
+2026-07-02 14:42:15,640 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 14:42:16,651 - __main__ - INFO - Etapa 2: Gerando tabuleiro e parâmetros
+2026-07-02 14:42:16,655 - __main__ - INFO - Etapa 3: Enviando aviso de sinal capturado
+2026-07-02 14:42:17,364 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 14:42:27,368 - __main__ - INFO - Etapa 4: Enviando tabuleiro com foto
+2026-07-02 14:42:27,382 - __main__ - INFO - Imagem validada com sucesso: img.png
+2026-07-02 14:42:29,079 - __main__ - INFO - Foto enviada para -1004368741807 (mensagem ID: 102)
+2026-07-02 14:42:29,081 - __main__ - INFO - Etapa 5: Iniciando cronômetro
+2026-07-02 14:42:29,112 - __main__ - INFO - Iniciando cronômetro: 120s para mensagem 102
+2026-07-02 14:44:29,113 - __main__ - INFO - Etapa 6: Enviando mensagem de sucesso
+2026-07-02 14:44:29,832 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 14:44:33,257 - __main__ - INFO - Cronômetro finalizado - tempo esgotado
+2026-07-02 14:44:39,839 - __main__ - INFO - Etapa 7: Enviando ranking
+2026-07-02 14:44:40,551 - __main__ - INFO - Mensagem com markup enviada para -1004368741807
+2026-07-02 14:44:50,561 - __main__ - INFO - Ciclo de sinal concluído com sucesso
+2026-07-02 14:44:50,638 - __main__ - INFO - Iniciando novo ciclo de sinal
+2026-07-02 14:44:50,652 - __main__ - INFO - Etapa 1: Enviando aviso de preparação
+2026-07-02 14:44:51,413 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 14:44:52,419 - __main__ - INFO - Etapa 2: Gerando tabuleiro e parâmetros
+2026-07-02 14:44:52,424 - __main__ - INFO - Etapa 3: Enviando aviso de sinal capturado
+2026-07-02 14:44:53,134 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 14:45:03,154 - __main__ - INFO - Etapa 4: Enviando tabuleiro com foto
+2026-07-02 14:45:03,155 - __main__ - INFO - Imagem validada com sucesso: img.png
+2026-07-02 14:45:04,227 - __main__ - INFO - Foto enviada para -1004368741807 (mensagem ID: 107)
+2026-07-02 14:45:04,228 - __main__ - INFO - Etapa 5: Iniciando cronômetro
+2026-07-02 14:45:04,233 - __main__ - INFO - Iniciando cronômetro: 120s para mensagem 107
+2026-07-02 14:47:04,235 - __main__ - INFO - Etapa 6: Enviando mensagem de sucesso
+2026-07-02 14:47:04,946 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 14:47:08,196 - __main__ - INFO - Cronômetro finalizado - tempo esgotado
+2026-07-02 14:47:14,947 - __main__ - INFO - Etapa 7: Enviando ranking
+2026-07-02 14:47:15,667 - __main__ - INFO - Mensagem com markup enviada para -1004368741807
+2026-07-02 14:47:25,674 - __main__ - INFO - Ciclo de sinal concluído com sucesso
+2026-07-02 14:47:25,674 - __main__ - INFO - Iniciando novo ciclo de sinal
+2026-07-02 14:47:25,674 - __main__ - INFO - Etapa 1: Enviando aviso de preparação
+2026-07-02 14:47:26,388 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 14:47:27,404 - __main__ - INFO - Etapa 2: Gerando tabuleiro e parâmetros
+2026-07-02 14:47:27,421 - __main__ - INFO - Etapa 3: Enviando aviso de sinal capturado
+2026-07-02 14:47:28,232 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 14:47:38,236 - __main__ - INFO - Etapa 4: Enviando tabuleiro com foto
+2026-07-02 14:47:38,239 - __main__ - INFO - Imagem validada com sucesso: img.png
+2026-07-02 14:47:40,677 - __main__ - INFO - Foto enviada para -1004368741807 (mensagem ID: 112)
+2026-07-02 14:47:40,682 - __main__ - INFO - Etapa 5: Iniciando cronômetro
+2026-07-02 14:47:40,683 - __main__ - INFO - Iniciando cronômetro: 120s para mensagem 112
+2026-07-02 14:48:58,991 - __main__ - INFO - ======================================================================
+2026-07-02 14:48:58,994 - __main__ - INFO - BOT FINALIZADO
+2026-07-02 14:48:58,995 - __main__ - INFO - ======================================================================
+2026-07-02 14:53:05,093 - __main__ - INFO - Iniciando carregamento de configurações...
+2026-07-02 14:53:05,097 - __main__ - INFO - Arquivo .env carregado com sucesso
+2026-07-02 14:53:05,097 - __main__ - INFO - ======================================================================
+2026-07-02 14:53:05,097 - __main__ - INFO - BOT DE SINAIS LUXURY - INICIANDO
+2026-07-02 14:53:05,098 - __main__ - INFO - ======================================================================
+2026-07-02 14:53:05,099 - __main__ - INFO - Carregando configurações...
+2026-07-02 14:53:05,099 - __main__ - INFO - Iniciando validação de configurações...
+2026-07-02 14:53:05,099 - __main__ - INFO - Token validado com sucesso
+2026-07-02 14:53:05,101 - __main__ - INFO - Chat ID validado: -1004368741807
+2026-07-02 14:53:05,101 - __main__ - INFO - Configuração CAMINHO_IMAGEM carregada: img.png
+2026-07-02 14:53:05,103 - __main__ - INFO - Configuração PLATAFORMA_1_URL carregada: https://bingo.bet.br/
+2026-07-02 14:53:05,104 - __main__ - INFO - Configuração PLATAFORMA_2_URL carregada: https://bingo.bet.br/
+2026-07-02 14:53:05,104 - __main__ - INFO - Configuração DELAY_SINAL_EM_BREVE carregada: 1
+2026-07-02 14:53:05,107 - __main__ - INFO - Configuração DELAY_SINAL_CAPTURADO carregada: 10
+2026-07-02 14:53:05,110 - __main__ - INFO - Configuração DELAY_ENVIO_TABULEIRO carregada: 120
+2026-07-02 14:53:05,111 - __main__ - INFO - Configuração DELAY_ENVIO_GREEN carregada: 10
+2026-07-02 14:53:05,111 - __main__ - INFO - Configuração DELAY_ENVIO_RANKING carregada: 10
+2026-07-02 14:53:05,111 - __main__ - INFO - Configuração MIN_BOMBAS carregada: 1
+2026-07-02 14:53:05,111 - __main__ - INFO - Configuração MAX_BOMBAS carregada: 5
+2026-07-02 14:53:05,111 - __main__ - INFO - Usando valor padrão para MIN_BOMBAS_ALEATORIO: 1
+2026-07-02 14:53:05,111 - __main__ - INFO - Usando valor padrão para MAX_BOMBAS_ALEATORIO: 25
+2026-07-02 14:53:05,112 - __main__ - INFO - Configuração MIN_ESTRELAS carregada: 1
+2026-07-02 14:53:05,112 - __main__ - INFO - Configuração MAX_ESTRELAS carregada: 5
+2026-07-02 14:53:05,112 - __main__ - INFO - Configuração MIN_VALOR carregada: 3
+2026-07-02 14:53:05,112 - __main__ - INFO - Configuração MAX_VALOR carregada: 100
+2026-07-02 14:53:05,112 - __main__ - INFO - Configuração MIN_PORCENTAGEM carregada: 65
+2026-07-02 14:53:05,112 - __main__ - INFO - Configuração MAX_PORCENTAGEM carregada: 90
+2026-07-02 14:53:05,114 - __main__ - INFO - Imagem validada com sucesso: img.png
+2026-07-02 14:53:05,115 - __main__ - INFO - ✅ Todas as configurações validadas com sucesso
+2026-07-02 14:53:05,115 - __main__ - INFO - Inicializando bot...
+2026-07-02 14:53:05,116 - __main__ - INFO - Inicializando bot do Telegram...
+2026-07-02 14:53:06,179 - __main__ - INFO - Bot conectado com sucesso: @Luxuryone_bot
+2026-07-02 14:53:06,181 - __main__ - INFO - ✅ Bot iniciado com sucesso
+2026-07-02 14:53:06,183 - __main__ - INFO - ✅ Chat ID configurado: -1004368741807
+2026-07-02 14:53:06,184 - __main__ - INFO - ✅ Delay entre sinais: 120s
+2026-07-02 14:53:06,184 - __main__ - INFO - Iniciando thread de ciclo de sinais...
+2026-07-02 14:53:06,192 - __main__ - INFO - Iniciando ciclo automático de sinais...
+2026-07-02 14:53:06,193 - __main__ - INFO - Thread de sinais iniciada
+2026-07-02 14:53:06,194 - __main__ - INFO - Iniciando novo ciclo de sinal
+2026-07-02 14:53:06,198 - __main__ - INFO - ✅ Bot aguardando mensagens... (Ctrl+C para parar)
+2026-07-02 14:53:06,201 - __main__ - INFO - Etapa 1: Enviando aviso de preparação
+2026-07-02 14:53:06,201 - __main__ - INFO - ======================================================================
+2026-07-02 14:53:07,766 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 14:53:08,769 - __main__ - INFO - Etapa 2: Gerando tabuleiro e parâmetros
+2026-07-02 14:53:08,777 - __main__ - INFO - Etapa 3: Enviando aviso de sinal capturado
+2026-07-02 14:53:09,499 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 14:53:19,508 - __main__ - INFO - Etapa 4: Enviando tabuleiro com foto
+2026-07-02 14:53:19,510 - __main__ - INFO - Imagem validada com sucesso: img.png
+2026-07-02 14:53:21,953 - __main__ - INFO - Foto enviada para -1004368741807 (mensagem ID: 115)
+2026-07-02 14:53:21,954 - __main__ - INFO - Etapa 5: Iniciando cronômetro
+2026-07-02 14:53:21,955 - __main__ - INFO - Iniciando cronômetro: 120s para mensagem 115
+2026-07-02 14:55:21,955 - __main__ - INFO - Etapa 6: Enviando mensagem de sucesso
+2026-07-02 14:55:22,671 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 14:55:25,897 - __main__ - INFO - Cronômetro finalizado - tempo esgotado
+2026-07-02 14:55:32,722 - __main__ - INFO - Etapa 7: Enviando ranking
+2026-07-02 14:55:33,447 - __main__ - INFO - Mensagem com markup enviada para -1004368741807
+2026-07-02 14:55:43,450 - __main__ - INFO - Ciclo de sinal concluído com sucesso
+2026-07-02 14:55:43,455 - __main__ - INFO - Iniciando novo ciclo de sinal
+2026-07-02 14:55:43,481 - __main__ - INFO - Etapa 1: Enviando aviso de preparação
+2026-07-02 14:55:44,224 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 14:55:45,229 - __main__ - INFO - Etapa 2: Gerando tabuleiro e parâmetros
+2026-07-02 14:55:45,233 - __main__ - INFO - Etapa 3: Enviando aviso de sinal capturado
+2026-07-02 14:55:45,953 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 14:55:55,999 - __main__ - INFO - Etapa 4: Enviando tabuleiro com foto
+2026-07-02 14:55:56,012 - __main__ - INFO - Imagem validada com sucesso: img.png
+2026-07-02 14:55:57,749 - __main__ - INFO - Foto enviada para -1004368741807 (mensagem ID: 120)
+2026-07-02 14:55:57,749 - __main__ - INFO - Etapa 5: Iniciando cronômetro
+2026-07-02 14:55:57,762 - __main__ - INFO - Iniciando cronômetro: 120s para mensagem 120
+2026-07-02 14:57:18,318 - __main__ - INFO - ======================================================================
+2026-07-02 14:57:18,322 - __main__ - INFO - BOT FINALIZADO
+2026-07-02 14:57:18,322 - __main__ - INFO - ======================================================================
+2026-07-02 14:57:24,653 - __main__ - INFO - Iniciando carregamento de configurações...
+2026-07-02 14:57:24,656 - __main__ - INFO - Arquivo .env carregado com sucesso
+2026-07-02 14:57:24,663 - __main__ - INFO - ======================================================================
+2026-07-02 14:57:24,664 - __main__ - INFO - BOT DE SINAIS LUXURY - INICIANDO
+2026-07-02 14:57:24,665 - __main__ - INFO - ======================================================================
+2026-07-02 14:57:24,667 - __main__ - INFO - Carregando configurações...
+2026-07-02 14:57:24,668 - __main__ - INFO - Iniciando validação de configurações...
+2026-07-02 14:57:24,671 - __main__ - INFO - Token validado com sucesso
+2026-07-02 14:57:24,680 - __main__ - INFO - Chat ID validado: -1004368741807
+2026-07-02 14:57:24,682 - __main__ - INFO - Configuração CAMINHO_IMAGEM carregada: img.png
+2026-07-02 14:57:24,686 - __main__ - INFO - Configuração PLATAFORMA_1_URL carregada: https://bingo.bet.br/
+2026-07-02 14:57:24,695 - __main__ - INFO - Configuração PLATAFORMA_2_URL carregada: https://bingo.bet.br/
+2026-07-02 14:57:24,696 - __main__ - INFO - Configuração DELAY_SINAL_EM_BREVE carregada: 1
+2026-07-02 14:57:24,699 - __main__ - INFO - Configuração DELAY_SINAL_CAPTURADO carregada: 10
+2026-07-02 14:57:24,705 - __main__ - INFO - Configuração DELAY_ENVIO_TABULEIRO carregada: 120
+2026-07-02 14:57:24,722 - __main__ - INFO - Configuração DELAY_ENVIO_GREEN carregada: 10
+2026-07-02 14:57:24,753 - __main__ - INFO - Configuração DELAY_ENVIO_RANKING carregada: 10
+2026-07-02 14:57:24,767 - __main__ - INFO - Configuração MIN_BOMBAS carregada: 1
+2026-07-02 14:57:24,778 - __main__ - INFO - Configuração MAX_BOMBAS carregada: 5
+2026-07-02 14:57:24,788 - __main__ - INFO - Usando valor padrão para MIN_BOMBAS_ALEATORIO: 1
+2026-07-02 14:57:24,794 - __main__ - INFO - Usando valor padrão para MAX_BOMBAS_ALEATORIO: 25
+2026-07-02 14:57:24,818 - __main__ - INFO - Configuração MIN_ESTRELAS carregada: 1
+2026-07-02 14:57:24,830 - __main__ - INFO - Configuração MAX_ESTRELAS carregada: 5
+2026-07-02 14:57:24,844 - __main__ - INFO - Configuração MIN_VALOR carregada: 3
+2026-07-02 14:57:24,872 - __main__ - INFO - Configuração MAX_VALOR carregada: 100
+2026-07-02 14:57:24,898 - __main__ - INFO - Configuração MIN_PORCENTAGEM carregada: 65
+2026-07-02 14:57:24,905 - __main__ - INFO - Configuração MAX_PORCENTAGEM carregada: 90
+2026-07-02 14:57:24,919 - __main__ - INFO - Imagem validada com sucesso: img.png
+2026-07-02 14:57:24,927 - __main__ - INFO - ✅ Todas as configurações validadas com sucesso
+2026-07-02 14:57:24,929 - __main__ - INFO - Inicializando bot...
+2026-07-02 14:57:24,929 - __main__ - INFO - Inicializando bot do Telegram...
+2026-07-02 14:57:25,931 - __main__ - INFO - Bot conectado com sucesso: @Luxuryone_bot
+2026-07-02 14:57:25,932 - __main__ - INFO - ✅ Bot iniciado com sucesso
+2026-07-02 14:57:25,933 - __main__ - INFO - ✅ Chat ID configurado: -1004368741807
+2026-07-02 14:57:25,933 - __main__ - INFO - ✅ Delay entre sinais: 120s
+2026-07-02 14:57:25,933 - __main__ - INFO - Iniciando thread de ciclo de sinais...
+2026-07-02 14:57:25,934 - __main__ - INFO - Iniciando ciclo automático de sinais...
+2026-07-02 14:57:25,934 - __main__ - INFO - Thread de sinais iniciada
+2026-07-02 14:57:25,934 - __main__ - INFO - Iniciando novo ciclo de sinal
+2026-07-02 14:57:25,934 - __main__ - INFO - ✅ Bot aguardando mensagens... (Ctrl+C para parar)
+2026-07-02 14:57:25,934 - __main__ - INFO - Etapa 1: Enviando aviso de preparação
+2026-07-02 14:57:25,936 - __main__ - INFO - ======================================================================
+2026-07-02 14:57:27,484 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 14:57:28,619 - __main__ - INFO - Etapa 2: Gerando tabuleiro e parâmetros
+2026-07-02 14:57:28,628 - __main__ - INFO - Etapa 3: Enviando aviso de sinal capturado
+2026-07-02 14:57:29,373 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 14:57:39,380 - __main__ - INFO - Etapa 4: Enviando tabuleiro com foto
+2026-07-02 14:57:39,381 - __main__ - INFO - Imagem validada com sucesso: img.png
+2026-07-02 14:57:42,072 - __main__ - INFO - Foto enviada para -1004368741807 (mensagem ID: 123)
+2026-07-02 14:57:42,075 - __main__ - INFO - Etapa 5: Iniciando cronômetro
+2026-07-02 14:57:42,082 - __main__ - INFO - Iniciando cronômetro: 120s para mensagem 123
+2026-07-02 14:59:42,082 - __main__ - INFO - Etapa 6: Enviando mensagem de sucesso
+2026-07-02 14:59:42,829 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 14:59:46,021 - __main__ - INFO - Cronômetro finalizado - tempo esgotado
+2026-07-02 14:59:52,832 - __main__ - INFO - Etapa 7: Enviando ranking
+2026-07-02 14:59:53,563 - __main__ - INFO - Mensagem com markup enviada para -1004368741807
+2026-07-02 15:00:03,565 - __main__ - INFO - Ciclo de sinal concluído com sucesso
+2026-07-02 15:00:03,567 - __main__ - INFO - Iniciando novo ciclo de sinal
+2026-07-02 15:00:03,568 - __main__ - INFO - Etapa 1: Enviando aviso de preparação
+2026-07-02 15:00:04,284 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 15:00:05,284 - __main__ - INFO - Etapa 2: Gerando tabuleiro e parâmetros
+2026-07-02 15:00:05,286 - __main__ - INFO - Etapa 3: Enviando aviso de sinal capturado
+2026-07-02 15:00:06,000 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 15:00:16,002 - __main__ - INFO - Etapa 4: Enviando tabuleiro com foto
+2026-07-02 15:00:16,003 - __main__ - INFO - Imagem validada com sucesso: img.png
+2026-07-02 15:00:18,843 - __main__ - INFO - Foto enviada para -1004368741807 (mensagem ID: 128)
+2026-07-02 15:00:18,858 - __main__ - INFO - Etapa 5: Iniciando cronômetro
+2026-07-02 15:00:18,883 - __main__ - INFO - Iniciando cronômetro: 120s para mensagem 128
+2026-07-02 15:02:15,317 - __main__ - INFO - ======================================================================
+2026-07-02 15:02:15,318 - __main__ - INFO - BOT FINALIZADO
+2026-07-02 15:02:15,320 - __main__ - INFO - ======================================================================
+2026-07-02 15:02:17,494 - __main__ - INFO - Iniciando carregamento de configurações...
+2026-07-02 15:02:17,498 - __main__ - INFO - Arquivo .env carregado com sucesso
+2026-07-02 15:02:17,508 - __main__ - INFO - ======================================================================
+2026-07-02 15:02:17,512 - __main__ - INFO - BOT DE SINAIS LUXURY - INICIANDO
+2026-07-02 15:02:17,512 - __main__ - INFO - ======================================================================
+2026-07-02 15:02:17,518 - __main__ - INFO - Carregando configurações...
+2026-07-02 15:02:17,527 - __main__ - INFO - Iniciando validação de configurações...
+2026-07-02 15:02:17,529 - __main__ - INFO - Token validado com sucesso
+2026-07-02 15:02:17,530 - __main__ - INFO - Chat ID validado: -1004368741807
+2026-07-02 15:02:17,537 - __main__ - INFO - Configuração CAMINHO_IMAGEM carregada: img.png
+2026-07-02 15:02:17,542 - __main__ - INFO - Configuração PLATAFORMA_1_URL carregada: https://bingo.bet.br/
+2026-07-02 15:02:17,543 - __main__ - INFO - Configuração PLATAFORMA_2_URL carregada: https://bingo.bet.br/
+2026-07-02 15:02:17,544 - __main__ - INFO - Configuração DELAY_SINAL_EM_BREVE carregada: 1
+2026-07-02 15:02:17,550 - __main__ - INFO - Configuração DELAY_SINAL_CAPTURADO carregada: 10
+2026-07-02 15:02:17,557 - __main__ - INFO - Configuração DELAY_ENVIO_TABULEIRO carregada: 120
+2026-07-02 15:02:17,558 - __main__ - INFO - Configuração DELAY_ENVIO_GREEN carregada: 10
+2026-07-02 15:02:17,558 - __main__ - INFO - Configuração DELAY_ENVIO_RANKING carregada: 10
+2026-07-02 15:02:17,562 - __main__ - INFO - Configuração MIN_BOMBAS carregada: 1
+2026-07-02 15:02:17,564 - __main__ - INFO - Configuração MAX_BOMBAS carregada: 5
+2026-07-02 15:02:17,570 - __main__ - INFO - Usando valor padrão para MIN_BOMBAS_ALEATORIO: 2
+2026-07-02 15:02:17,574 - __main__ - INFO - Usando valor padrão para MAX_BOMBAS_ALEATORIO: 4
+2026-07-02 15:02:17,575 - __main__ - INFO - Configuração MIN_ESTRELAS carregada: 1
+2026-07-02 15:02:17,576 - __main__ - INFO - Configuração MAX_ESTRELAS carregada: 5
+2026-07-02 15:02:17,577 - __main__ - INFO - Configuração MIN_VALOR carregada: 3
+2026-07-02 15:02:17,578 - __main__ - INFO - Configuração MAX_VALOR carregada: 100
+2026-07-02 15:02:17,579 - __main__ - INFO - Configuração MIN_PORCENTAGEM carregada: 65
+2026-07-02 15:02:17,580 - __main__ - INFO - Configuração MAX_PORCENTAGEM carregada: 90
+2026-07-02 15:02:17,586 - __main__ - INFO - Imagem validada com sucesso: img.png
+2026-07-02 15:02:17,596 - __main__ - INFO - ✅ Todas as configurações validadas com sucesso
+2026-07-02 15:02:17,597 - __main__ - INFO - Inicializando bot...
+2026-07-02 15:02:17,608 - __main__ - INFO - Inicializando bot do Telegram...
+2026-07-02 15:02:18,626 - __main__ - INFO - Bot conectado com sucesso: @Luxuryone_bot
+2026-07-02 15:02:18,626 - __main__ - INFO - ✅ Bot iniciado com sucesso
+2026-07-02 15:02:18,627 - __main__ - INFO - ✅ Chat ID configurado: -1004368741807
+2026-07-02 15:02:18,629 - __main__ - INFO - ✅ Delay entre sinais: 120s
+2026-07-02 15:02:18,638 - __main__ - INFO - Iniciando thread de ciclo de sinais...
+2026-07-02 15:02:18,639 - __main__ - INFO - Iniciando ciclo automático de sinais...
+2026-07-02 15:02:18,639 - __main__ - INFO - Thread de sinais iniciada
+2026-07-02 15:02:18,642 - __main__ - INFO - Iniciando novo ciclo de sinal
+2026-07-02 15:02:18,646 - __main__ - INFO - ✅ Bot aguardando mensagens... (Ctrl+C para parar)
+2026-07-02 15:02:18,647 - __main__ - INFO - Etapa 1: Enviando aviso de preparação
+2026-07-02 15:02:18,647 - __main__ - INFO - ======================================================================
+2026-07-02 15:02:20,214 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 15:02:21,218 - __main__ - INFO - Etapa 2: Gerando tabuleiro e parâmetros
+2026-07-02 15:02:21,219 - __main__ - INFO - Etapa 3: Enviando aviso de sinal capturado
+2026-07-02 15:02:21,922 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 15:02:31,940 - __main__ - INFO - Etapa 4: Enviando tabuleiro com foto
+2026-07-02 15:02:31,950 - __main__ - INFO - Imagem validada com sucesso: img.png
+2026-07-02 15:02:34,600 - __main__ - INFO - Foto enviada para -1004368741807 (mensagem ID: 131)
+2026-07-02 15:02:34,600 - __main__ - INFO - Etapa 5: Iniciando cronômetro
+2026-07-02 15:02:34,601 - __main__ - INFO - Iniciando cronômetro: 120s para mensagem 131
+2026-07-02 15:04:34,601 - __main__ - INFO - Etapa 6: Enviando mensagem de sucesso
+2026-07-02 15:04:35,330 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 15:04:38,375 - __main__ - INFO - Cronômetro finalizado - tempo esgotado
+2026-07-02 15:04:45,333 - __main__ - INFO - Etapa 7: Enviando ranking
+2026-07-02 15:04:46,040 - __main__ - INFO - Mensagem com markup enviada para -1004368741807
+2026-07-02 15:04:56,041 - __main__ - INFO - Ciclo de sinal concluído com sucesso
+2026-07-02 15:04:56,042 - __main__ - INFO - Iniciando novo ciclo de sinal
+2026-07-02 15:04:56,042 - __main__ - INFO - Etapa 1: Enviando aviso de preparação
+2026-07-02 15:04:56,784 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 15:04:57,785 - __main__ - INFO - Etapa 2: Gerando tabuleiro e parâmetros
+2026-07-02 15:04:57,788 - __main__ - INFO - Etapa 3: Enviando aviso de sinal capturado
+2026-07-02 15:04:58,529 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 15:05:08,530 - __main__ - INFO - Etapa 4: Enviando tabuleiro com foto
+2026-07-02 15:05:08,533 - __main__ - INFO - Imagem validada com sucesso: img.png
+2026-07-02 15:05:11,362 - __main__ - INFO - Foto enviada para -1004368741807 (mensagem ID: 136)
+2026-07-02 15:05:11,365 - __main__ - INFO - Etapa 5: Iniciando cronômetro
+2026-07-02 15:05:11,374 - __main__ - INFO - Iniciando cronômetro: 120s para mensagem 136
+2026-07-02 15:07:11,375 - __main__ - INFO - Etapa 6: Enviando mensagem de sucesso
+2026-07-02 15:07:12,103 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 15:07:15,265 - __main__ - INFO - Cronômetro finalizado - tempo esgotado
+2026-07-02 15:07:22,103 - __main__ - INFO - Etapa 7: Enviando ranking
+2026-07-02 15:07:22,819 - __main__ - INFO - Mensagem com markup enviada para -1004368741807
+2026-07-02 15:07:32,823 - __main__ - INFO - Ciclo de sinal concluído com sucesso
+2026-07-02 15:07:32,824 - __main__ - INFO - Iniciando novo ciclo de sinal
+2026-07-02 15:07:32,824 - __main__ - INFO - Etapa 1: Enviando aviso de preparação
+2026-07-02 15:07:33,538 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 15:07:34,539 - __main__ - INFO - Etapa 2: Gerando tabuleiro e parâmetros
+2026-07-02 15:07:34,541 - __main__ - INFO - Etapa 3: Enviando aviso de sinal capturado
+2026-07-02 15:07:35,268 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 15:07:45,269 - __main__ - INFO - Etapa 4: Enviando tabuleiro com foto
+2026-07-02 15:07:45,276 - __main__ - INFO - Imagem validada com sucesso: img.png
+2026-07-02 15:07:47,767 - __main__ - INFO - Foto enviada para -1004368741807 (mensagem ID: 141)
+2026-07-02 15:07:47,767 - __main__ - INFO - Etapa 5: Iniciando cronômetro
+2026-07-02 15:07:47,768 - __main__ - INFO - Iniciando cronômetro: 120s para mensagem 141
+2026-07-02 15:08:28,771 - __main__ - INFO - ======================================================================
+2026-07-02 15:08:28,775 - __main__ - INFO - BOT FINALIZADO
+2026-07-02 15:08:28,786 - __main__ - INFO - ======================================================================
+2026-07-02 23:10:33,833 - __main__ - INFO - Iniciando carregamento de configurações...
+2026-07-02 23:10:33,843 - __main__ - INFO - Arquivo .env carregado com sucesso
+2026-07-02 23:10:33,847 - __main__ - INFO - ======================================================================
+2026-07-02 23:10:33,851 - __main__ - INFO - BOT DE SINAIS LUXURY - INICIANDO
+2026-07-02 23:10:33,852 - __main__ - INFO - ======================================================================
+2026-07-02 23:10:33,852 - __main__ - INFO - Carregando configurações...
+2026-07-02 23:10:33,854 - __main__ - INFO - Iniciando validação de configurações...
+2026-07-02 23:10:33,859 - __main__ - INFO - Token validado com sucesso
+2026-07-02 23:10:33,861 - __main__ - INFO - Chat ID validado: -1004368741807
+2026-07-02 23:10:33,861 - __main__ - INFO - Configuração CAMINHO_IMAGEM carregada: img.png
+2026-07-02 23:10:33,861 - __main__ - INFO - Configuração PLATAFORMA_1_URL carregada: https://bingo.bet.br/
+2026-07-02 23:10:33,862 - __main__ - INFO - Configuração PLATAFORMA_2_URL carregada: https://bingo.bet.br/
+2026-07-02 23:10:33,863 - __main__ - INFO - Configuração DELAY_SINAL_EM_BREVE carregada: 1
+2026-07-02 23:10:33,867 - __main__ - INFO - Configuração DELAY_SINAL_CAPTURADO carregada: 10
+2026-07-02 23:10:33,869 - __main__ - INFO - Configuração DELAY_ENVIO_TABULEIRO carregada: 120
+2026-07-02 23:10:33,875 - __main__ - INFO - Configuração DELAY_ENVIO_GREEN carregada: 10
+2026-07-02 23:10:33,878 - __main__ - INFO - Configuração DELAY_ENVIO_RANKING carregada: 10
+2026-07-02 23:10:33,878 - __main__ - INFO - Configuração MIN_BOMBAS carregada: 1
+2026-07-02 23:10:33,883 - __main__ - INFO - Configuração MAX_BOMBAS carregada: 5
+2026-07-02 23:10:33,884 - __main__ - INFO - Usando valor padrão para MIN_BOMBAS_ALEATORIO: 2
+2026-07-02 23:10:33,891 - __main__ - INFO - Usando valor padrão para MAX_BOMBAS_ALEATORIO: 4
+2026-07-02 23:10:33,892 - __main__ - INFO - Configuração MIN_ESTRELAS carregada: 1
+2026-07-02 23:10:33,892 - __main__ - INFO - Configuração MAX_ESTRELAS carregada: 5
+2026-07-02 23:10:33,892 - __main__ - INFO - Configuração MIN_VALOR carregada: 3
+2026-07-02 23:10:33,893 - __main__ - INFO - Configuração MAX_VALOR carregada: 100
+2026-07-02 23:10:33,896 - __main__ - INFO - Configuração MIN_PORCENTAGEM carregada: 65
+2026-07-02 23:10:33,898 - __main__ - INFO - Configuração MAX_PORCENTAGEM carregada: 90
+2026-07-02 23:10:33,901 - __main__ - INFO - Imagem validada com sucesso: img.png
+2026-07-02 23:10:33,907 - __main__ - INFO - ✅ Todas as configurações validadas com sucesso
+2026-07-02 23:10:33,908 - __main__ - INFO - Inicializando bot...
+2026-07-02 23:10:33,908 - __main__ - INFO - Inicializando bot do Telegram...
+2026-07-02 23:10:35,109 - __main__ - INFO - Bot conectado com sucesso: @Luxuryone_bot
+2026-07-02 23:10:35,110 - __main__ - INFO - ✅ Bot iniciado com sucesso
+2026-07-02 23:10:35,110 - __main__ - INFO - ✅ Chat ID configurado: -1004368741807
+2026-07-02 23:10:35,110 - __main__ - INFO - ✅ Delay entre sinais: 120s
+2026-07-02 23:10:35,111 - __main__ - INFO - Iniciando thread de ciclo de sinais...
+2026-07-02 23:10:35,111 - __main__ - INFO - Iniciando ciclo automático de sinais...
+2026-07-02 23:10:35,111 - __main__ - INFO - Thread de sinais iniciada
+2026-07-02 23:10:35,111 - __main__ - INFO - Iniciando novo ciclo de sinal
+2026-07-02 23:10:35,112 - __main__ - INFO - ✅ Bot aguardando mensagens... (Ctrl+C para parar)
+2026-07-02 23:10:35,112 - __main__ - INFO - Etapa 1: Enviando aviso de preparação
+2026-07-02 23:10:35,112 - __main__ - INFO - ======================================================================
+2026-07-02 23:10:36,608 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 23:10:37,609 - __main__ - INFO - Etapa 2: Gerando tabuleiro e parâmetros
+2026-07-02 23:10:37,612 - __main__ - INFO - Etapa 3: Enviando aviso de sinal capturado
+2026-07-02 23:10:38,326 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 23:10:48,327 - __main__ - INFO - Etapa 4: Enviando tabuleiro com foto
+2026-07-02 23:10:48,328 - __main__ - INFO - Imagem validada com sucesso: img.png
+2026-07-02 23:10:49,869 - __main__ - INFO - Foto enviada para -1004368741807 (mensagem ID: 145)
+2026-07-02 23:10:49,870 - __main__ - INFO - Etapa 5: Iniciando cronômetro
+2026-07-02 23:10:49,872 - __main__ - INFO - Iniciando cronômetro: 120s para mensagem 145
+2026-07-02 23:12:49,873 - __main__ - INFO - Etapa 6: Enviando mensagem de sucesso
+2026-07-02 23:12:50,616 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 23:12:53,659 - __main__ - INFO - Cronômetro finalizado - tempo esgotado
+2026-07-02 23:13:00,617 - __main__ - INFO - Etapa 7: Enviando ranking
+2026-07-02 23:13:01,355 - __main__ - INFO - Mensagem com markup enviada para -1004368741807
+2026-07-02 23:13:11,357 - __main__ - INFO - Ciclo de sinal concluído com sucesso
+2026-07-02 23:13:11,358 - __main__ - INFO - Iniciando novo ciclo de sinal
+2026-07-02 23:13:11,358 - __main__ - INFO - Etapa 1: Enviando aviso de preparação
+2026-07-02 23:13:12,065 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 23:13:13,066 - __main__ - INFO - Etapa 2: Gerando tabuleiro e parâmetros
+2026-07-02 23:13:13,067 - __main__ - INFO - Etapa 3: Enviando aviso de sinal capturado
+2026-07-02 23:13:13,776 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 23:13:23,778 - __main__ - INFO - Etapa 4: Enviando tabuleiro com foto
+2026-07-02 23:13:23,779 - __main__ - INFO - Imagem validada com sucesso: img.png
+2026-07-02 23:13:24,823 - __main__ - INFO - Foto enviada para -1004368741807 (mensagem ID: 150)
+2026-07-02 23:13:24,823 - __main__ - INFO - Etapa 5: Iniciando cronômetro
+2026-07-02 23:13:24,824 - __main__ - INFO - Iniciando cronômetro: 120s para mensagem 150
+2026-07-02 23:15:24,824 - __main__ - INFO - Etapa 6: Enviando mensagem de sucesso
+2026-07-02 23:15:25,533 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 23:15:28,712 - __main__ - INFO - Cronômetro finalizado - tempo esgotado
+2026-07-02 23:15:35,537 - __main__ - INFO - Etapa 7: Enviando ranking
+2026-07-02 23:15:36,265 - __main__ - INFO - Mensagem com markup enviada para -1004368741807
+2026-07-02 23:15:46,267 - __main__ - INFO - Ciclo de sinal concluído com sucesso
+2026-07-02 23:15:46,270 - __main__ - INFO - Iniciando novo ciclo de sinal
+2026-07-02 23:15:46,278 - __main__ - INFO - Etapa 1: Enviando aviso de preparação
+2026-07-02 23:15:47,144 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 23:15:48,147 - __main__ - INFO - Etapa 2: Gerando tabuleiro e parâmetros
+2026-07-02 23:15:48,149 - __main__ - INFO - Etapa 3: Enviando aviso de sinal capturado
+2026-07-02 23:15:48,867 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 23:15:58,868 - __main__ - INFO - Etapa 4: Enviando tabuleiro com foto
+2026-07-02 23:15:58,869 - __main__ - INFO - Imagem validada com sucesso: img.png
+2026-07-02 23:15:59,929 - __main__ - INFO - Foto enviada para -1004368741807 (mensagem ID: 155)
+2026-07-02 23:15:59,930 - __main__ - INFO - Etapa 5: Iniciando cronômetro
+2026-07-02 23:15:59,932 - __main__ - INFO - Iniciando cronômetro: 120s para mensagem 155
+2026-07-02 23:17:59,932 - __main__ - INFO - Etapa 6: Enviando mensagem de sucesso
+2026-07-02 23:18:00,640 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 23:18:03,813 - __main__ - INFO - Cronômetro finalizado - tempo esgotado
+2026-07-02 23:18:10,641 - __main__ - INFO - Etapa 7: Enviando ranking
+2026-07-02 23:18:11,377 - __main__ - INFO - Mensagem com markup enviada para -1004368741807
+2026-07-02 23:18:21,382 - __main__ - INFO - Ciclo de sinal concluído com sucesso
+2026-07-02 23:18:21,382 - __main__ - INFO - Iniciando novo ciclo de sinal
+2026-07-02 23:18:21,382 - __main__ - INFO - Etapa 1: Enviando aviso de preparação
+2026-07-02 23:18:22,106 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 23:18:23,109 - __main__ - INFO - Etapa 2: Gerando tabuleiro e parâmetros
+2026-07-02 23:18:23,109 - __main__ - INFO - Etapa 3: Enviando aviso de sinal capturado
+2026-07-02 23:18:23,816 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 23:18:33,818 - __main__ - INFO - Etapa 4: Enviando tabuleiro com foto
+2026-07-02 23:18:33,818 - __main__ - INFO - Imagem validada com sucesso: img.png
+2026-07-02 23:18:34,888 - __main__ - INFO - Foto enviada para -1004368741807 (mensagem ID: 160)
+2026-07-02 23:18:34,891 - __main__ - INFO - Etapa 5: Iniciando cronômetro
+2026-07-02 23:18:34,892 - __main__ - INFO - Iniciando cronômetro: 120s para mensagem 160
+2026-07-02 23:20:34,893 - __main__ - INFO - Etapa 6: Enviando mensagem de sucesso
+2026-07-02 23:20:35,607 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 23:20:38,721 - __main__ - INFO - Cronômetro finalizado - tempo esgotado
+2026-07-02 23:20:45,608 - __main__ - INFO - Etapa 7: Enviando ranking
+2026-07-02 23:20:47,045 - __main__ - INFO - Mensagem com markup enviada para -1004368741807
+2026-07-02 23:20:57,049 - __main__ - INFO - Ciclo de sinal concluído com sucesso
+2026-07-02 23:20:57,050 - __main__ - INFO - Iniciando novo ciclo de sinal
+2026-07-02 23:20:57,050 - __main__ - INFO - Etapa 1: Enviando aviso de preparação
+2026-07-02 23:20:57,862 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 23:20:58,867 - __main__ - INFO - Etapa 2: Gerando tabuleiro e parâmetros
+2026-07-02 23:20:58,868 - __main__ - INFO - Etapa 3: Enviando aviso de sinal capturado
+2026-07-02 23:20:59,577 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 23:21:09,579 - __main__ - INFO - Etapa 4: Enviando tabuleiro com foto
+2026-07-02 23:21:09,581 - __main__ - INFO - Imagem validada com sucesso: img.png
+2026-07-02 23:21:11,101 - __main__ - INFO - Foto enviada para -1004368741807 (mensagem ID: 165)
+2026-07-02 23:21:11,101 - __main__ - INFO - Etapa 5: Iniciando cronômetro
+2026-07-02 23:21:11,102 - __main__ - INFO - Iniciando cronômetro: 120s para mensagem 165
+2026-07-02 23:23:11,103 - __main__ - INFO - Etapa 6: Enviando mensagem de sucesso
+2026-07-02 23:23:11,821 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 23:23:15,337 - __main__ - INFO - Cronômetro finalizado - tempo esgotado
+2026-07-02 23:23:21,823 - __main__ - INFO - Etapa 7: Enviando ranking
+2026-07-02 23:23:22,527 - __main__ - INFO - Mensagem com markup enviada para -1004368741807
+2026-07-02 23:23:32,528 - __main__ - INFO - Ciclo de sinal concluído com sucesso
+2026-07-02 23:23:32,532 - __main__ - INFO - Iniciando novo ciclo de sinal
+2026-07-02 23:23:32,533 - __main__ - INFO - Etapa 1: Enviando aviso de preparação
+2026-07-02 23:23:33,243 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 23:23:34,246 - __main__ - INFO - Etapa 2: Gerando tabuleiro e parâmetros
+2026-07-02 23:23:34,248 - __main__ - INFO - Etapa 3: Enviando aviso de sinal capturado
+2026-07-02 23:23:34,966 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 23:23:44,967 - __main__ - INFO - Etapa 4: Enviando tabuleiro com foto
+2026-07-02 23:23:44,967 - __main__ - INFO - Imagem validada com sucesso: img.png
+2026-07-02 23:23:46,644 - __main__ - INFO - Foto enviada para -1004368741807 (mensagem ID: 170)
+2026-07-02 23:23:46,647 - __main__ - INFO - Etapa 5: Iniciando cronômetro
+2026-07-02 23:23:46,647 - __main__ - INFO - Iniciando cronômetro: 120s para mensagem 170
+2026-07-02 23:25:46,648 - __main__ - INFO - Etapa 6: Enviando mensagem de sucesso
+2026-07-02 23:25:47,353 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 23:25:50,540 - __main__ - INFO - Cronômetro finalizado - tempo esgotado
+2026-07-02 23:25:57,355 - __main__ - INFO - Etapa 7: Enviando ranking
+2026-07-02 23:25:58,074 - __main__ - INFO - Mensagem com markup enviada para -1004368741807
+2026-07-02 23:26:08,077 - __main__ - INFO - Ciclo de sinal concluído com sucesso
+2026-07-02 23:26:08,078 - __main__ - INFO - Iniciando novo ciclo de sinal
+2026-07-02 23:26:08,080 - __main__ - INFO - Etapa 1: Enviando aviso de preparação
+2026-07-02 23:26:08,800 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 23:26:09,800 - __main__ - INFO - Etapa 2: Gerando tabuleiro e parâmetros
+2026-07-02 23:26:09,801 - __main__ - INFO - Etapa 3: Enviando aviso de sinal capturado
+2026-07-02 23:26:10,504 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 23:26:20,508 - __main__ - INFO - Etapa 4: Enviando tabuleiro com foto
+2026-07-02 23:26:20,509 - __main__ - INFO - Imagem validada com sucesso: img.png
+2026-07-02 23:26:22,043 - __main__ - INFO - Foto enviada para -1004368741807 (mensagem ID: 175)
+2026-07-02 23:26:22,044 - __main__ - INFO - Etapa 5: Iniciando cronômetro
+2026-07-02 23:26:22,045 - __main__ - INFO - Iniciando cronômetro: 120s para mensagem 175
+2026-07-02 23:28:22,045 - __main__ - INFO - Etapa 6: Enviando mensagem de sucesso
+2026-07-02 23:28:22,767 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 23:28:25,875 - __main__ - INFO - Cronômetro finalizado - tempo esgotado
+2026-07-02 23:28:32,771 - __main__ - INFO - Etapa 7: Enviando ranking
+2026-07-02 23:28:33,486 - __main__ - INFO - Mensagem com markup enviada para -1004368741807
+2026-07-02 23:28:43,487 - __main__ - INFO - Ciclo de sinal concluído com sucesso
+2026-07-02 23:28:43,488 - __main__ - INFO - Iniciando novo ciclo de sinal
+2026-07-02 23:28:43,488 - __main__ - INFO - Etapa 1: Enviando aviso de preparação
+2026-07-02 23:28:44,204 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 23:28:45,205 - __main__ - INFO - Etapa 2: Gerando tabuleiro e parâmetros
+2026-07-02 23:28:45,206 - __main__ - INFO - Etapa 3: Enviando aviso de sinal capturado
+2026-07-02 23:28:45,912 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 23:28:55,916 - __main__ - INFO - Etapa 4: Enviando tabuleiro com foto
+2026-07-02 23:28:55,917 - __main__ - INFO - Imagem validada com sucesso: img.png
+2026-07-02 23:28:56,961 - __main__ - INFO - Foto enviada para -1004368741807 (mensagem ID: 180)
+2026-07-02 23:28:56,962 - __main__ - INFO - Etapa 5: Iniciando cronômetro
+2026-07-02 23:28:56,962 - __main__ - INFO - Iniciando cronômetro: 120s para mensagem 180
+2026-07-02 23:30:56,963 - __main__ - INFO - Etapa 6: Enviando mensagem de sucesso
+2026-07-02 23:30:58,427 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 23:31:00,844 - __main__ - INFO - Cronômetro finalizado - tempo esgotado
+2026-07-02 23:31:08,429 - __main__ - INFO - Etapa 7: Enviando ranking
+2026-07-02 23:31:09,155 - __main__ - INFO - Mensagem com markup enviada para -1004368741807
+2026-07-02 23:31:19,156 - __main__ - INFO - Ciclo de sinal concluído com sucesso
+2026-07-02 23:31:19,157 - __main__ - INFO - Iniciando novo ciclo de sinal
+2026-07-02 23:31:19,157 - __main__ - INFO - Etapa 1: Enviando aviso de preparação
+2026-07-02 23:31:19,882 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 23:31:20,884 - __main__ - INFO - Etapa 2: Gerando tabuleiro e parâmetros
+2026-07-02 23:31:20,886 - __main__ - INFO - Etapa 3: Enviando aviso de sinal capturado
+2026-07-02 23:31:21,604 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 23:31:31,606 - __main__ - INFO - Etapa 4: Enviando tabuleiro com foto
+2026-07-02 23:31:31,607 - __main__ - INFO - Imagem validada com sucesso: img.png
+2026-07-02 23:31:33,742 - __main__ - INFO - Foto enviada para -1004368741807 (mensagem ID: 185)
+2026-07-02 23:31:33,746 - __main__ - INFO - Etapa 5: Iniciando cronômetro
+2026-07-02 23:31:33,762 - __main__ - INFO - Iniciando cronômetro: 120s para mensagem 185
+2026-07-02 23:33:33,763 - __main__ - INFO - Etapa 6: Enviando mensagem de sucesso
+2026-07-02 23:33:34,487 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 23:33:37,652 - __main__ - INFO - Cronômetro finalizado - tempo esgotado
+2026-07-02 23:33:44,491 - __main__ - INFO - Etapa 7: Enviando ranking
+2026-07-02 23:33:45,220 - __main__ - INFO - Mensagem com markup enviada para -1004368741807
+2026-07-02 23:33:55,220 - __main__ - INFO - Ciclo de sinal concluído com sucesso
+2026-07-02 23:33:55,221 - __main__ - INFO - Iniciando novo ciclo de sinal
+2026-07-02 23:33:55,221 - __main__ - INFO - Etapa 1: Enviando aviso de preparação
+2026-07-02 23:33:55,942 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 23:33:56,945 - __main__ - INFO - Etapa 2: Gerando tabuleiro e parâmetros
+2026-07-02 23:33:56,946 - __main__ - INFO - Etapa 3: Enviando aviso de sinal capturado
+2026-07-02 23:33:57,664 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 23:34:07,667 - __main__ - INFO - Etapa 4: Enviando tabuleiro com foto
+2026-07-02 23:34:07,667 - __main__ - INFO - Imagem validada com sucesso: img.png
+2026-07-02 23:34:09,325 - __main__ - INFO - Foto enviada para -1004368741807 (mensagem ID: 190)
+2026-07-02 23:34:09,325 - __main__ - INFO - Etapa 5: Iniciando cronômetro
+2026-07-02 23:34:09,326 - __main__ - INFO - Iniciando cronômetro: 120s para mensagem 190
+2026-07-02 23:36:09,326 - __main__ - INFO - Etapa 6: Enviando mensagem de sucesso
+2026-07-02 23:36:10,050 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 23:36:13,166 - __main__ - INFO - Cronômetro finalizado - tempo esgotado
+2026-07-02 23:36:20,051 - __main__ - INFO - Etapa 7: Enviando ranking
+2026-07-02 23:36:20,801 - __main__ - INFO - Mensagem com markup enviada para -1004368741807
+2026-07-02 23:36:30,805 - __main__ - INFO - Ciclo de sinal concluído com sucesso
+2026-07-02 23:36:30,806 - __main__ - INFO - Iniciando novo ciclo de sinal
+2026-07-02 23:36:30,806 - __main__ - INFO - Etapa 1: Enviando aviso de preparação
+2026-07-02 23:36:31,888 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 23:36:32,889 - __main__ - INFO - Etapa 2: Gerando tabuleiro e parâmetros
+2026-07-02 23:36:32,890 - __main__ - INFO - Etapa 3: Enviando aviso de sinal capturado
+2026-07-02 23:36:33,609 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 23:36:43,610 - __main__ - INFO - Etapa 4: Enviando tabuleiro com foto
+2026-07-02 23:36:43,614 - __main__ - INFO - Imagem validada com sucesso: img.png
+2026-07-02 23:36:44,856 - __main__ - INFO - Foto enviada para -1004368741807 (mensagem ID: 195)
+2026-07-02 23:36:44,858 - __main__ - INFO - Etapa 5: Iniciando cronômetro
+2026-07-02 23:36:44,859 - __main__ - INFO - Iniciando cronômetro: 120s para mensagem 195
+2026-07-02 23:38:44,860 - __main__ - INFO - Etapa 6: Enviando mensagem de sucesso
+2026-07-02 23:38:45,578 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 23:38:48,709 - __main__ - INFO - Cronômetro finalizado - tempo esgotado
+2026-07-02 23:38:55,580 - __main__ - INFO - Etapa 7: Enviando ranking
+2026-07-02 23:38:56,356 - __main__ - INFO - Mensagem com markup enviada para -1004368741807
+2026-07-02 23:39:06,359 - __main__ - INFO - Ciclo de sinal concluído com sucesso
+2026-07-02 23:39:06,361 - __main__ - INFO - Iniciando novo ciclo de sinal
+2026-07-02 23:39:06,365 - __main__ - INFO - Etapa 1: Enviando aviso de preparação
+2026-07-02 23:39:07,099 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 23:39:08,100 - __main__ - INFO - Etapa 2: Gerando tabuleiro e parâmetros
+2026-07-02 23:39:08,103 - __main__ - INFO - Etapa 3: Enviando aviso de sinal capturado
+2026-07-02 23:39:08,809 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 23:39:18,811 - __main__ - INFO - Etapa 4: Enviando tabuleiro com foto
+2026-07-02 23:39:18,812 - __main__ - INFO - Imagem validada com sucesso: img.png
+2026-07-02 23:39:20,139 - __main__ - INFO - Foto enviada para -1004368741807 (mensagem ID: 200)
+2026-07-02 23:39:20,140 - __main__ - INFO - Etapa 5: Iniciando cronômetro
+2026-07-02 23:39:20,152 - __main__ - INFO - Iniciando cronômetro: 120s para mensagem 200
+2026-07-02 23:41:20,152 - __main__ - INFO - Etapa 6: Enviando mensagem de sucesso
+2026-07-02 23:41:21,579 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 23:41:23,968 - __main__ - INFO - Cronômetro finalizado - tempo esgotado
+2026-07-02 23:41:31,581 - __main__ - INFO - Etapa 7: Enviando ranking
+2026-07-02 23:41:32,317 - __main__ - INFO - Mensagem com markup enviada para -1004368741807
+2026-07-02 23:41:42,318 - __main__ - INFO - Ciclo de sinal concluído com sucesso
+2026-07-02 23:41:42,338 - __main__ - INFO - Iniciando novo ciclo de sinal
+2026-07-02 23:41:42,338 - __main__ - INFO - Etapa 1: Enviando aviso de preparação
+2026-07-02 23:41:43,045 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 23:41:44,047 - __main__ - INFO - Etapa 2: Gerando tabuleiro e parâmetros
+2026-07-02 23:41:44,048 - __main__ - INFO - Etapa 3: Enviando aviso de sinal capturado
+2026-07-02 23:41:44,759 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 23:41:54,760 - __main__ - INFO - Etapa 4: Enviando tabuleiro com foto
+2026-07-02 23:41:54,761 - __main__ - INFO - Imagem validada com sucesso: img.png
+2026-07-02 23:41:56,271 - __main__ - INFO - Foto enviada para -1004368741807 (mensagem ID: 205)
+2026-07-02 23:41:56,272 - __main__ - INFO - Etapa 5: Iniciando cronômetro
+2026-07-02 23:41:56,272 - __main__ - INFO - Iniciando cronômetro: 120s para mensagem 205
+2026-07-02 23:43:56,273 - __main__ - INFO - Etapa 6: Enviando mensagem de sucesso
+2026-07-02 23:43:56,982 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 23:44:00,223 - __main__ - INFO - Cronômetro finalizado - tempo esgotado
+2026-07-02 23:44:06,983 - __main__ - INFO - Etapa 7: Enviando ranking
+2026-07-02 23:44:07,708 - __main__ - INFO - Mensagem com markup enviada para -1004368741807
+2026-07-02 23:44:17,712 - __main__ - INFO - Ciclo de sinal concluído com sucesso
+2026-07-02 23:44:17,713 - __main__ - INFO - Iniciando novo ciclo de sinal
+2026-07-02 23:44:17,713 - __main__ - INFO - Etapa 1: Enviando aviso de preparação
+2026-07-02 23:44:18,428 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 23:44:19,429 - __main__ - INFO - Etapa 2: Gerando tabuleiro e parâmetros
+2026-07-02 23:44:19,430 - __main__ - INFO - Etapa 3: Enviando aviso de sinal capturado
+2026-07-02 23:44:20,142 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 23:44:30,143 - __main__ - INFO - Etapa 4: Enviando tabuleiro com foto
+2026-07-02 23:44:30,144 - __main__ - INFO - Imagem validada com sucesso: img.png
+2026-07-02 23:44:31,193 - __main__ - INFO - Foto enviada para -1004368741807 (mensagem ID: 210)
+2026-07-02 23:44:31,193 - __main__ - INFO - Etapa 5: Iniciando cronômetro
+2026-07-02 23:44:31,194 - __main__ - INFO - Iniciando cronômetro: 120s para mensagem 210
+2026-07-02 23:46:31,195 - __main__ - INFO - Etapa 6: Enviando mensagem de sucesso
+2026-07-02 23:46:31,907 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 23:46:35,073 - __main__ - INFO - Cronômetro finalizado - tempo esgotado
+2026-07-02 23:46:41,909 - __main__ - INFO - Etapa 7: Enviando ranking
+2026-07-02 23:46:42,625 - __main__ - INFO - Mensagem com markup enviada para -1004368741807
+2026-07-02 23:46:52,628 - __main__ - INFO - Ciclo de sinal concluído com sucesso
+2026-07-02 23:46:52,629 - __main__ - INFO - Iniciando novo ciclo de sinal
+2026-07-02 23:46:52,629 - __main__ - INFO - Etapa 1: Enviando aviso de preparação
+2026-07-02 23:46:53,329 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 23:46:54,333 - __main__ - INFO - Etapa 2: Gerando tabuleiro e parâmetros
+2026-07-02 23:46:54,336 - __main__ - INFO - Etapa 3: Enviando aviso de sinal capturado
+2026-07-02 23:46:55,047 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 23:47:05,048 - __main__ - INFO - Etapa 4: Enviando tabuleiro com foto
+2026-07-02 23:47:05,049 - __main__ - INFO - Imagem validada com sucesso: img.png
+2026-07-02 23:47:06,092 - __main__ - INFO - Foto enviada para -1004368741807 (mensagem ID: 215)
+2026-07-02 23:47:06,093 - __main__ - INFO - Etapa 5: Iniciando cronômetro
+2026-07-02 23:47:06,093 - __main__ - INFO - Iniciando cronômetro: 120s para mensagem 215
+2026-07-02 23:49:06,094 - __main__ - INFO - Etapa 6: Enviando mensagem de sucesso
+2026-07-02 23:49:06,797 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 23:49:09,872 - __main__ - INFO - Cronômetro finalizado - tempo esgotado
+2026-07-02 23:49:16,799 - __main__ - INFO - Etapa 7: Enviando ranking
+2026-07-02 23:49:17,510 - __main__ - INFO - Mensagem com markup enviada para -1004368741807
+2026-07-02 23:49:27,511 - __main__ - INFO - Ciclo de sinal concluído com sucesso
+2026-07-02 23:49:27,512 - __main__ - INFO - Iniciando novo ciclo de sinal
+2026-07-02 23:49:27,513 - __main__ - INFO - Etapa 1: Enviando aviso de preparação
+2026-07-02 23:49:28,226 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 23:49:29,229 - __main__ - INFO - Etapa 2: Gerando tabuleiro e parâmetros
+2026-07-02 23:49:29,230 - __main__ - INFO - Etapa 3: Enviando aviso de sinal capturado
+2026-07-02 23:49:29,932 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 23:49:39,935 - __main__ - INFO - Etapa 4: Enviando tabuleiro com foto
+2026-07-02 23:49:39,938 - __main__ - INFO - Imagem validada com sucesso: img.png
+2026-07-02 23:49:41,032 - __main__ - INFO - Foto enviada para -1004368741807 (mensagem ID: 220)
+2026-07-02 23:49:41,033 - __main__ - INFO - Etapa 5: Iniciando cronômetro
+2026-07-02 23:49:41,033 - __main__ - INFO - Iniciando cronômetro: 120s para mensagem 220
+2026-07-02 23:51:41,034 - __main__ - INFO - Etapa 6: Enviando mensagem de sucesso
+2026-07-02 23:51:42,482 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 23:51:44,847 - __main__ - INFO - Cronômetro finalizado - tempo esgotado
+2026-07-02 23:51:52,483 - __main__ - INFO - Etapa 7: Enviando ranking
+2026-07-02 23:51:53,201 - __main__ - INFO - Mensagem com markup enviada para -1004368741807
+2026-07-02 23:52:03,202 - __main__ - INFO - Ciclo de sinal concluído com sucesso
+2026-07-02 23:52:03,204 - __main__ - INFO - Iniciando novo ciclo de sinal
+2026-07-02 23:52:03,205 - __main__ - INFO - Etapa 1: Enviando aviso de preparação
+2026-07-02 23:52:03,918 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 23:52:04,920 - __main__ - INFO - Etapa 2: Gerando tabuleiro e parâmetros
+2026-07-02 23:52:04,922 - __main__ - INFO - Etapa 3: Enviando aviso de sinal capturado
+2026-07-02 23:52:05,630 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 23:52:15,631 - __main__ - INFO - Etapa 4: Enviando tabuleiro com foto
+2026-07-02 23:52:15,632 - __main__ - INFO - Imagem validada com sucesso: img.png
+2026-07-02 23:52:17,184 - __main__ - INFO - Foto enviada para -1004368741807 (mensagem ID: 225)
+2026-07-02 23:52:17,184 - __main__ - INFO - Etapa 5: Iniciando cronômetro
+2026-07-02 23:52:17,188 - __main__ - INFO - Iniciando cronômetro: 120s para mensagem 225
+2026-07-02 23:54:17,189 - __main__ - INFO - Etapa 6: Enviando mensagem de sucesso
+2026-07-02 23:54:17,903 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 23:54:21,052 - __main__ - INFO - Cronômetro finalizado - tempo esgotado
+2026-07-02 23:54:27,904 - __main__ - INFO - Etapa 7: Enviando ranking
+2026-07-02 23:54:28,621 - __main__ - INFO - Mensagem com markup enviada para -1004368741807
+2026-07-02 23:54:38,625 - __main__ - INFO - Ciclo de sinal concluído com sucesso
+2026-07-02 23:54:38,626 - __main__ - INFO - Iniciando novo ciclo de sinal
+2026-07-02 23:54:38,627 - __main__ - INFO - Etapa 1: Enviando aviso de preparação
+2026-07-02 23:54:39,339 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 23:54:40,340 - __main__ - INFO - Etapa 2: Gerando tabuleiro e parâmetros
+2026-07-02 23:54:40,344 - __main__ - INFO - Etapa 3: Enviando aviso de sinal capturado
+2026-07-02 23:54:41,051 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 23:54:51,052 - __main__ - INFO - Etapa 4: Enviando tabuleiro com foto
+2026-07-02 23:54:51,054 - __main__ - INFO - Imagem validada com sucesso: img.png
+2026-07-02 23:54:52,090 - __main__ - INFO - Foto enviada para -1004368741807 (mensagem ID: 230)
+2026-07-02 23:54:52,091 - __main__ - INFO - Etapa 5: Iniciando cronômetro
+2026-07-02 23:54:52,094 - __main__ - INFO - Iniciando cronômetro: 120s para mensagem 230
+2026-07-02 23:56:52,095 - __main__ - INFO - Etapa 6: Enviando mensagem de sucesso
+2026-07-02 23:56:52,807 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 23:56:55,935 - __main__ - INFO - Cronômetro finalizado - tempo esgotado
+2026-07-02 23:57:02,851 - __main__ - INFO - Etapa 7: Enviando ranking
+2026-07-02 23:57:03,571 - __main__ - INFO - Mensagem com markup enviada para -1004368741807
+2026-07-02 23:57:13,573 - __main__ - INFO - Ciclo de sinal concluído com sucesso
+2026-07-02 23:57:13,573 - __main__ - INFO - Iniciando novo ciclo de sinal
+2026-07-02 23:57:13,574 - __main__ - INFO - Etapa 1: Enviando aviso de preparação
+2026-07-02 23:57:14,275 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 23:57:15,278 - __main__ - INFO - Etapa 2: Gerando tabuleiro e parâmetros
+2026-07-02 23:57:15,279 - __main__ - INFO - Etapa 3: Enviando aviso de sinal capturado
+2026-07-02 23:57:15,993 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 23:57:25,994 - __main__ - INFO - Etapa 4: Enviando tabuleiro com foto
+2026-07-02 23:57:25,995 - __main__ - INFO - Imagem validada com sucesso: img.png
+2026-07-02 23:57:28,255 - __main__ - INFO - Foto enviada para -1004368741807 (mensagem ID: 235)
+2026-07-02 23:57:28,257 - __main__ - INFO - Etapa 5: Iniciando cronômetro
+2026-07-02 23:57:28,262 - __main__ - INFO - Iniciando cronômetro: 120s para mensagem 235
+2026-07-02 23:59:28,262 - __main__ - INFO - Etapa 6: Enviando mensagem de sucesso
+2026-07-02 23:59:29,004 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 23:59:32,130 - __main__ - INFO - Cronômetro finalizado - tempo esgotado
+2026-07-02 23:59:39,006 - __main__ - INFO - Etapa 7: Enviando ranking
+2026-07-02 23:59:39,758 - __main__ - INFO - Mensagem com markup enviada para -1004368741807
+2026-07-02 23:59:49,760 - __main__ - INFO - Ciclo de sinal concluído com sucesso
+2026-07-02 23:59:49,763 - __main__ - INFO - Iniciando novo ciclo de sinal
+2026-07-02 23:59:49,764 - __main__ - INFO - Etapa 1: Enviando aviso de preparação
+2026-07-02 23:59:50,507 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-02 23:59:51,516 - __main__ - INFO - Etapa 2: Gerando tabuleiro e parâmetros
+2026-07-02 23:59:51,517 - __main__ - INFO - Etapa 3: Enviando aviso de sinal capturado
+2026-07-02 23:59:52,233 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-03 00:00:02,234 - __main__ - INFO - Etapa 4: Enviando tabuleiro com foto
+2026-07-03 00:00:02,243 - __main__ - INFO - Imagem validada com sucesso: img.png
+2026-07-03 00:00:03,456 - __main__ - INFO - Foto enviada para -1004368741807 (mensagem ID: 240)
+2026-07-03 00:00:03,458 - __main__ - INFO - Etapa 5: Iniciando cronômetro
+2026-07-03 00:00:03,459 - __main__ - INFO - Iniciando cronômetro: 120s para mensagem 240
+2026-07-03 00:02:03,460 - __main__ - INFO - Etapa 6: Enviando mensagem de sucesso
+2026-07-03 00:02:04,951 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-03 00:02:07,386 - __main__ - INFO - Cronômetro finalizado - tempo esgotado
+2026-07-03 00:02:14,956 - __main__ - INFO - Etapa 7: Enviando ranking
+2026-07-03 00:02:15,718 - __main__ - INFO - Mensagem com markup enviada para -1004368741807
+2026-07-03 00:02:25,724 - __main__ - INFO - Ciclo de sinal concluído com sucesso
+2026-07-03 00:02:25,727 - __main__ - INFO - Iniciando novo ciclo de sinal
+2026-07-03 00:02:25,729 - __main__ - INFO - Etapa 1: Enviando aviso de preparação
+2026-07-03 00:02:26,511 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-03 00:02:27,515 - __main__ - INFO - Etapa 2: Gerando tabuleiro e parâmetros
+2026-07-03 00:02:27,517 - __main__ - INFO - Etapa 3: Enviando aviso de sinal capturado
+2026-07-03 00:02:28,334 - __main__ - INFO - Mensagem enviada para -1004368741807
+2026-07-03 00:02:35,293 - __main__ - INFO - ======================================================================
+2026-07-03 00:02:35,304 - __main__ - INFO - BOT FINALIZADO
+2026-07-03 00:02:35,316 - __main__ - INFO - ======================================================================
